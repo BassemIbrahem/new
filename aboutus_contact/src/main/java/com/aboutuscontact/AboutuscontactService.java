@@ -19,7 +19,7 @@ public class AboutuscontactService {
 		this.aboutuscontactRepository = AboutuscontactRepository;
 	}
 	public List<Information> getAllInformation() {
-		System.out.println("g");
+		System.out.println("dddd");
 		return aboutuscontactRepository.findAll();
 		
 
