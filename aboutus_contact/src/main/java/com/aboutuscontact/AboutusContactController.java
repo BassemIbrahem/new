@@ -21,6 +21,7 @@ public class AboutusContactController {
 	
 	@GetMapping
 	public List<Information> getAllInformation() {
+		System.out.println("gfrrrr");
 		return aboutuscontactService.getAllInformation();
 		
 	}
