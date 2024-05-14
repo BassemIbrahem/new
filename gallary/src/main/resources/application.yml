@@ -1,0 +1,6 @@
+spring:
+ application:
+  name: gallary
+# HTTP Server
+server:
+ port: 8083
